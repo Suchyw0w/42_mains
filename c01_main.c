@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   c01_main.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: osuchane <osuchane@student.42prague.com    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/10/15 08:41:55 by osuchane          #+#    #+#             */
+/*   Updated: 2022/10/15 08:41:56 by osuchane         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
@@ -16,7 +28,7 @@
 1. put this file into main directory (one that you clone)
 	E.g git clone xxx
 	cd xxx - here you will put main.c or make your own main.c and copy and paste code
-2. Uncomment include of function you want to test
+2. Uncomment include of function you want to test (all can be uncommented if there is no function with the same name)
 3. Uncomment block of code (multiple lines) where is function located (you can see numbers of exercises on the lines so uncomment it right below the number)
 4. go to terminal to clonned repository E.g xxx where you have main.c and run cc -Wall -Wextra - Werror main.c
 5. Now just run ./a.out and you will se output of the function you are testing
@@ -37,8 +49,7 @@ int main()
 	*/
 	//01
 	/*
-	result = a / b;
-	*div = result;
+	int number;
 	int	*ptr1;
 	int	**ptr2;
 	int ***ptr3;
@@ -48,6 +59,8 @@ int main()
 	int	*******ptr7;
 	int	********ptr8;
 	int	*********nbr;
+
+	number = 10;
 
 	//point address of variable number to ptr1 and so on..
 	ptr1 = &number;
@@ -100,7 +113,7 @@ int main()
 	//printf("len: %d", ft_strlen("Martin likes chicken with rice"));
 	//07
 	/*
-	int arr[] = {1, 2, 3, 4, 5};
+	int arr[] = {1, 5, 3, 2, 9};
 	int size = sizeof(arr) / sizeof(arr[0]);
 	int i = 0, j = 0;
 
@@ -137,7 +150,7 @@ int main()
 	ft_sort_int_tab(arr, size);
 	printf("\n");
 
-	printf("array after: ");
+	printf("array after sorted: ");
 	while (size > j)
 	{
 		printf("%d", arr[j]);
