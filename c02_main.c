@@ -6,7 +6,7 @@
 /*   By: osuchane <osuchane@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 15:28:19 by osuchane          #+#    #+#             */
-/*   Updated: 2022/10/16 11:45:54 by osuchane         ###   ########.fr       */
+/*   Updated: 2022/10/16 12:43:36 by osuchane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,6 @@
 //#include "ex10/ft_strlcpy.c"
 //#include "ex11/ft_putstr_non_printable.c"
 
-/*
-1. put this file into main directory (one that you clone)
-	E.g git clone xxx
-	cd xxx - here you will put main.c or make your own main.c and copy and paste code
-2. Uncomment include of function you want to test (all can be uncommented if there is no function with the same name)
-3. Uncomment block of code (multiple lines) where is function located (you can see numbers of exercises on the lines so uncomment it right below the number)
-4. go to terminal to clonned repository E.g xxx where you have main.c and run cc -Wall -Wextra - Werror main.c
-5. Now just run ./a.out and you will se output of the function you are testing
-6. you have to comment everything back (you can use ctrl z if you have it opened in vscode) and then uncomment another function and so on...
-*/
 
 int main()
 {
@@ -97,8 +87,10 @@ int main()
 	printf("%s", ft_strlowcase(lower));
 	*/
 	//09
-	//char capitalize[] = "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";
-	//printf("%s", ft_strcapitalize(capitalize));
+	/*
+	char capitalize[] = "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";
+	printf("%s", ft_strcapitalize(capitalize));
+	*/
 	//10
 	/*
 	char x[] = "hello";
@@ -107,10 +99,10 @@ int main()
 	printf("len of string: %d string to copy: %s after copy: %s", ft_strlcpy(x, y, 10), y, x);
 	*/
 	//11
-	/*
+
 	char nonprint[] = "asdad\n";
 	ft_putstr_non_printable(nonprint);
-	*/
+
 	//12
 	//Error 404 not found
 	return 0;
