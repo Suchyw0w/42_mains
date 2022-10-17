@@ -6,7 +6,7 @@
 /*   By: osuchane <osuchane@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 15:28:19 by osuchane          #+#    #+#             */
-/*   Updated: 2022/10/16 12:43:36 by osuchane         ###   ########.fr       */
+/*   Updated: 2022/10/17 09:52:49 by osuchane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,10 +99,10 @@ int main()
 	printf("len of string: %d string to copy: %s after copy: %s", ft_strlcpy(x, y, 10), y, x);
 	*/
 	//11
-
+	/*
 	char nonprint[] = "asdad\n";
 	ft_putstr_non_printable(nonprint);
-
+	*/
 	//12
 	//Error 404 not found
 	return 0;
