@@ -26,8 +26,10 @@
 int main()
 {
 	//00
+	
 	int num_factorial = 5;
 	printf("factorial of number %d: %d\n", num_factorial,ft_iterative_factorial(num_factorial));
+	
 	//01
 	/*
 	int num_recursive_factorial = 5;
@@ -57,12 +59,12 @@ int main()
 	*/
 	//06
 	/*
-	int num_prime = 11;
+	int num_prime = 2147483647;
 	printf("is %d prime number? Output: %d\n", num_prime, ft_is_prime(num_prime));
 	*/
 	//07
 	/*
-	int num_next_prime = 10;
+	int num_next_prime = 2147483646;
 	printf("Next prime number after number %d is: %d\n", num_next_prime, ft_find_next_prime(num_next_prime));
 	*/
 }
