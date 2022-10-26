@@ -46,9 +46,7 @@ int main()
 	*/
 	//03
 	/*
-	char attoi_test[] = " ---+--+1234ab567";
 	char ft_attoi_test[] = " ---+--+1234ab567";
-	printf("attoi: %d", atoi(attoi_test));
 	printf("\nft_attoi: %d", ft_atoi(ft_attoi_test));
 	*/
 	//04
