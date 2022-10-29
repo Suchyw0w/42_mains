@@ -28,3 +28,19 @@ int	main(void)
 		++i;
 	}
 }
+
+/*
+//ex02
+int main()
+{
+	char *str = "Hi.hidadae dead daed , huidhaued";
+	char **test = ft_split(str, ".,");
+	int j = 0;
+	while (test[j])
+	{
+		printf("%s", test[j]);
+		j++;
+	}
+	printf("\n");
+}
+*/
