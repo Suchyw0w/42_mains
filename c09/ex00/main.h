@@ -1,23 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   main.h                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: osuchane <osuchane@student.42prague.com    +#+  +:+       +#+        */
+/*   By: osuchane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/27 20:36:11 by osuchane          #+#    #+#             */
-/*   Updated: 2022/10/27 20:36:13 by osuchane         ###   ########.fr       */
+/*   Created: 2022/10/29 18:33:12 by osuchane          #+#    #+#             */
+/*   Updated: 2022/10/29 18:34:53 by osuchane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
-{
-	int	x;
-
-	x = 0;
-	while (str[x] != '\0')
-	{
-		x++;
-	}
-	return (x);
-}
+#ifndef MAIN_H
+# define MAIN_H
+void	ft_putchar(char c);
+void	ft_swap(int *a, int *b);
+void	ft_putstr(char *str);
+int		ft_strlen(char *str);
+int		ft_strcmp(char *s1, char *s2);
+#endif

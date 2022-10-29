@@ -1,20 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: osuchane <osuchane@student.42prague.com    +#+  +:+       +#+        */
+/*   By: osuchane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/27 20:36:24 by osuchane          #+#    #+#             */
-/*   Updated: 2022/10/27 20:36:24 by osuchane         ###   ########.fr       */
+/*   Created: 2022/10/29 18:25:49 by osuchane          #+#    #+#             */
+/*   Updated: 2022/10/29 18:26:30 by osuchane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
-{
-	int	temp;
+#include "main.h"
 
-	temp = *a;
-	*a = *b;
-	*b = temp;
+int main()
+{
+	ft_putchar('a');
+	return 0;
 }
