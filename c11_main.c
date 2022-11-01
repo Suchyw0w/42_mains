@@ -6,7 +6,7 @@
 /*   By: osuchane <osuchane@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 14:14:24 by osuchane          #+#    #+#             */
-/*   Updated: 2022/10/31 23:27:52 by osuchane         ###   ########.fr       */
+/*   Updated: 2022/11/01 09:42:57 by osuchane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,18 +98,22 @@ int	sort(int x, int y)
 int main()
 {
 	//00
-	/*
+
 	int	array[] = {5, 8, 10, 15, -2147483648, 2147483647};
 	int arr_len = sizeof(array) / sizeof(array[0]);
 	ft_foreach(array, arr_len, &ft_putnbr);
-	*/
+
 	//01
 	/*
-	int	array_map[] = {5};
+	int	array_map[] = {5, 2, 3};
 	int	*result;
 	int arr_map_len = sizeof(array_map) / sizeof(array_map[0]);
 	result = ft_map(array_map, arr_map_len, &ft_iterative_factorial);
-	printf("%d", *result);
+	int k = 0;
+	while (k < arr_map_len)
+	{
+		printf("%d", result[k]);
+	}
 	*/
 	//02
 	/*
@@ -203,3 +207,4 @@ int main()
 	}
 	*/
 }
+
